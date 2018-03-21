@@ -3,7 +3,7 @@ Automated Folders and File Creation (with a set structure)
 
 The program creates a folder a structured as below:
 (note: program requires user to enter prefix for folder names and prefix for file names)
-** in the below example "exampleFolder" is the prefix for folder names & "exampleFile" is the prefix for file names
+* in the below example "exampleFolder" is the prefix for folder names & "exampleFile" is the prefix for file names
 ```
 folder_loop.bat exampleFolder exampleFile
 
