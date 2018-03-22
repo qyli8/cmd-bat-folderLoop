@@ -23,8 +23,8 @@ echo %root%
        md "!root!/!dirName!/!subDir!"
        for %%k in (1,2,3,4) do (
        if %%k leq %%i (
-         set newFile=%filePrefix%%%k%%j
-         md "!root!/!dirName!/!subDir!/!newFile!"
+         set newFile=%filePrefix%%%k%%j.txt
+         type nul > "!root!/!dirName!/!subDir!/!newFile!"
        )
      )
      )
