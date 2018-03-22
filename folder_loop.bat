@@ -39,6 +39,6 @@ echo %root%
  :exit
     pause 
 
-endlocal EnableDelayedExpansion
+endlocal DisableDelayedExpansion
    
   
